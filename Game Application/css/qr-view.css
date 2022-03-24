@@ -1,0 +1,90 @@
+.qr-view {
+    background-color: #121229;
+    width: 100%;
+    height: 100%;
+    min-height: 740px;
+}
+
+.qr-view .language {
+    position: absolute;
+    bottom: 5.31vw;
+    left: 8vw;
+    font-size: 3.623vw;
+    color: #FF8900;
+    text-decoration: underline;
+    font-family: Jost, sans-serif;
+    display: none;
+}
+
+.qr-view .back {
+    position: absolute;
+    top: 6.04vw;
+    left: 12.077vw;
+    font-size: 3.623vw;
+    color: #FF8900;
+    text-decoration: underline;
+    font-family: Jost, sans-serif;
+    display: none;
+}
+
+.qr-view .back:before {
+    background-image: url('../img/back-arrow.svg');
+    content: '';
+    width: 1.932vw;
+    height: 2.899vw;
+    position: absolute;
+    left: -4.831vw;
+    top: 1.449vw;
+}
+
+.qr-view h2 {
+    margin: 0;
+    padding: 17.633vw 5vw 0 5vw;
+    font-size: 4.831vw;
+    line-height: 6.039vw;
+    color: #F2F2F2;
+    text-transform: uppercase;
+    font-weight: normal;
+    text-align: center;
+    font-family: Jost, sans-serif;
+
+}
+
+.qr-view .qr-placeholder {
+    background-image: url('../img/qr-placeholder.svg');
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    width: 40.348vw;
+    height: 40.348vw;
+    margin: auto;
+    margin-top: 12.95vw;
+    position: relative;
+}
+
+.qr-view .button {
+    margin: 7.739vw 0 0 0;
+    text-align: center;
+}
+
+.qr-view .camera {
+    max-width: 40vw;
+    max-height: 40vw;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%) !important;
+}
+
+.qr-view .code-input {
+    background-color: #FF8900;
+    color: #000000;
+    display: inline;
+    border-radius: 13.333vw;
+    font-size: 4.348vw;
+    padding: 1.932vw 10.87vw;
+    border: 0.604vw solid #121228;
+    white-space: nowrap;
+    font-family: Jost, sans-serif;
+    width: 28.7vw;
+    text-align: center;
+}

@@ -1,0 +1,13 @@
+button.back-button {
+    background-image: url('../img/back.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 9.179vw;
+    height: 9.179vw;
+    background-color: transparent;
+    border: 0 none;
+    position: absolute;
+    top: 8.454vw;
+    left: 8.454vw;
+    z-index: 2;
+}

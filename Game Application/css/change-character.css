@@ -1,0 +1,103 @@
+.character-change {
+    width: 100%;
+    min-height: 100%;
+    background-image: url('../img/character-background.svg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.character-change h2 {
+    font-size: 4.831vw;
+    padding-top: 16.908vw;
+    margin: auto;
+    text-align: center;
+    font-family: Jost, sans-serif;
+    font-weight: normal;
+    line-height: 6.039vw;
+    font-style: normal;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+    width: 65.217vw;
+}
+
+.character-change .figur-1 {
+    width: 31.159vw;
+    height: 31.159vw;
+    background-image: url('../img/placeholder-bottom-toolbar.png');
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 14.493vw;
+    top: 53.14vw;
+}
+
+.character-change .figur-2 {
+    width: 31.159vw;
+    height: 31.159vw;
+    background-image: url('../img/placeholder-bottom-toolbar.png');
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    position: absolute;
+    right: 14.493vw;
+    top: 53.14vw;
+}
+
+.character-change .figur-1 .title,
+.character-change .figur-2 .title {
+    width: 31.159vw;
+    text-align: center;
+    position: absolute;
+    left: 0;
+    bottom: -8.696vw;
+    font-family: Jost, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 3.865vw;
+    line-height: 4.831vw;
+    color: #fff;
+}
+.character-change .figur-1.selected:before,
+.character-change .figur-2.selected:before {
+    background-image: url('../img/change-character-selected.svg');
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    width: 35.749vw;
+    height: 35.024vw;
+    content: '';
+    position: absolute;
+    left: -2.295vw;
+    top: -2vw;
+}
+
+.character-change .button.ok {
+    position: absolute;
+    top: 111.111vw;
+    transform: translate(-50%, 0%);
+    left: 50%;
+    width: 47vw;
+}
+
+.character-change .button.cancel {
+    position: absolute;
+    top: 125.604vw;
+    transform: translate(-50%, 0%);
+    left: 50%;
+    width: 47vw;
+}
+
+.character-change .button.ok button,
+.character-change .button.cancel button {
+    width: 47vw;
+    padding: 1.932vw 1vw;
+}
+
+.character-change .button.cancel button {
+    background: transparent;
+    color: #FF8900;
+    border-color: #FF8900;
+}
+
+.character-change .button.ok.inactive button {
+    background-color: #8787D6;
+}

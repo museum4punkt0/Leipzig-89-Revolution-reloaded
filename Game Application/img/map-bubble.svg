@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="367.866" height="205.579" viewBox="0 0 367.866 205.579" preserveAspectRatio="none">
+    <defs>
+        <clipPath id="clip-path">
+            <rect id="Rechteck_3377" width="367.866" height="225.579" fill="none"/>
+        </clipPath>
+        <clipPath id="clip-path-2">
+            <rect id="Rechteck_3964" width="120.501" height="32.726" transform="translate(0 0)" fill="none"/>
+        </clipPath>
+    </defs>
+    <g id="Pop-Up_Map" transform="translate(-17 -392.973)">
+        <g id="Gruppe_6304" transform="translate(17 393.335)">
+            <g id="Gruppe_5665" clip-path="url(#clip-path)">
+                <path id="Pfad_8406" d="M1.135,171.713C1.031,193.681,5.077,204.3,21.26,204.3s254.245-.9,315.794-.326c29.254.731,29.877-8.788,29.877-27.094-1.055-32.28-.852-148.542-.852-160.4S363.9,1.1,346.783,1.1C313.148.661,54.024,1.83,24.371,1.83c-25.208,0-23.34,15.416-23.34,25.263s.264,110.519.1,144.62" transform="translate(-0.032 0.141)" fill="#fff"/>
+                <path id="Pfad_8407" d="M1.135,171.713C1.031,193.681,5.077,204.3,21.26,204.3s254.245-.9,315.794-.326c29.254.731,29.877-8.788,29.877-27.094-1.055-32.28-.852-148.542-.852-160.4S363.9,1.1,346.783,1.1C313.148.661,54.024,1.83,24.371,1.83c-25.208,0-23.34,15.416-23.34,25.263S1.3,137.612,1.135,171.713Z" transform="translate(-0.032 0.141)" fill="none" stroke="#000" stroke-width="2"/>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,231 @@
+footer {
+    height: 16.425vw;
+    width: 100%;
+    background-color: #242444;
+    position: absolute;
+    z-index: 100;
+    left: 0;
+    bottom: 0;
+}
+
+footer .time-progress-container {
+    width: 100%;
+    height: 1.208vw;
+    background-color: #969696;
+}
+
+footer .time-progress-container .progress {
+    width: 0%;
+    height: 1.208vw;
+    background-color: #FF8900;
+}
+
+footer .time-progress-container .progress {
+    height: 1.208vw;
+    background-color: #FF8900;
+}
+
+footer .time-progress-container .progress.animate {
+    animation: moveBottomProgress var(--toolbarTime) ease-out forwards;
+}
+
+@keyframes moveBottomProgress {
+    from {
+    }
+    to {
+        width: var(--toolbarProgress);
+    }
+}
+
+footer ul.toolbar-items {
+    list-style-type: none;
+    padding-top: 1.208vw;
+    padding-left: 4.831vw;
+    margin-top: 0;
+}
+
+footer ul.toolbar-items li {
+    width: 9.662vw;
+    height: 9.662vw;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+footer ul.toolbar-items li.menu {
+    background-image: url('../img/burger-menu.svg');
+    background-size: 100% auto;
+    position: absolute;
+    left: 9.662vw;
+    top: 5.194vw;
+    width: 7.246vw;
+    height: 7.246vw;
+    cursor: pointer;
+}
+
+footer ul.toolbar-items li.menu .sub-menu {
+    position: absolute;
+    left: -5.797vw;
+    bottom: -0.966vw;
+    width: 18.116vw;
+    height: 72.464vw;
+    background-color: #242444;
+    border-radius: 12.077vw;
+}
+
+footer ul.toolbar-items li.menu .sub-menu ul.sub-menu-items {
+    list-style-type: none;
+    width: 100%;
+    padding-left: 4.533vw;
+    padding-top: 8vw;
+}
+
+footer ul.toolbar-items li.menu .sub-menu ul.sub-menu-items li {
+    border-radius: 50%;
+    background-color: #545483;
+    width: 9.662vw;
+    height: 9.662vw;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin-bottom: 6.246vw;
+    cursor: pointer;
+}
+
+footer ul.toolbar-items li.menu .sub-menu ul.sub-menu-items li.home {
+    background-image: url('../img/home.svg');
+}
+
+footer ul.toolbar-items li.menu .sub-menu ul.sub-menu-items li.speaker {
+    background-image: url('../img/speaker.svg');
+}
+
+footer ul.toolbar-items li.menu .sub-menu ul.sub-menu-items li.speaker.deactivated {
+    background-image: url('../img/speaker-deactivated.svg');
+}
+
+footer ul.toolbar-items li.menu .sub-menu ul.sub-menu-items li.language.en_US {
+    background-image: url('../img/lang-en.svg');
+}
+
+footer ul.toolbar-items li.menu .sub-menu ul.sub-menu-items li.language.de_DE {
+    background-image: url('../img/lang-de.svg');
+}
+
+footer ul.toolbar-items li.menu .sub-menu .close-menu {
+    width: 18.116vw;
+    height: 18.116vw;
+    position: absolute;
+    left: 0;
+    bottom: 3.623vw;
+    cursor: pointer;
+}
+
+footer ul.toolbar-items li.menu .sub-menu .close-menu .close-button {
+    background-image: url('../img/close-menu.svg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 9.662vw auto;
+    width: 100%;
+    height: 100%;
+}
+
+footer ul.toolbar-items li.map {
+    position: absolute;
+    right: 26.57vw;
+    top: 5.194vw;
+    width: 7.246vw;
+    height: 7.246vw;
+    cursor: pointer;
+}
+
+footer ul.toolbar-items li.map.active {
+    animation: setMapActive 0.3s ease-in forwards;
+}
+
+footer ul.toolbar-items li.map.inactive {
+    animation: setMapInactive 0.3s ease-in forwards;
+}
+
+footer ul.toolbar-items li.map.active:before {
+    background: url('../img/map-selected.svg');
+    background-size: 100%;
+    position: absolute;
+    left: -5.06667vw;
+    top: -5.06667vw;
+    width: 16.908vw;
+    height: 16.908vw;
+    content: '';
+}
+
+footer ul.toolbar-items li.map .icon {
+    background-image: url('../img/map.svg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+footer ul.toolbar-items li.character {
+    background-size: 100% auto;
+    position: absolute;
+    right: 9.662vw;
+    top: 3.986vw;
+    cursor: pointer;
+}
+
+footer ul.toolbar-items li.character.active {
+    animation: setMapActive 0.3s ease-in forwards;
+}
+
+footer ul.toolbar-items li.character.inactive {
+    animation: setMapInactive 0.3s ease-in forwards;
+}
+
+footer ul.toolbar-items li.character.active:before {
+    background: url('../img/character-selected.svg');
+    background-size: 100%;
+    position: absolute;
+    left: -1.2vw;
+    top: -1.06667vw;
+    width: 16.908vw;
+    height: 16.908vw;
+    content: '';
+}
+
+footer ul.toolbar-items li.character .icon {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    width: 9.662vw;
+    height: 9.662vw;
+    position: relative;
+    border-radius: 20vw;
+}
+
+footer ul.toolbar-items li.character.active {
+    right: 12.078vw;
+}
+
+footer ul.toolbar-items li.character.active .icon {
+    width: 14.493vw;
+    height: 14.493vw;
+}
+
+@keyframes setMapActive {
+    0% {
+        margin-top: 0;
+    }
+    100% {
+        margin-top: -6.933vw;
+    }
+}
+
+@keyframes setMapInactive {
+    0% {
+        margin-top: -6.933vw;
+    }
+    100% {
+        margin-top: 0;
+    }
+}

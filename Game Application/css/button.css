@@ -1,0 +1,52 @@
+.default-button {
+    background-color: #FF8900;
+    color: #000000;
+    display: inline;
+    border-radius: 13.333vw;
+    font-size: 4.348vw;
+    padding: 1.932vw 10.87vw;
+    border: 0.604vw solid #121228;
+    white-space: nowrap;
+    font-family: Jost, sans-serif;
+    cursor: pointer;
+}
+
+.default-button.invert {
+    background-color: #FFFFFF;
+}
+
+.answer-button {
+    background-color: #8787D6;
+    color: #000000;
+    border-radius: 13.333vw;
+    font-size: 4.348vw;
+    border: 0.604vw solid #121228;
+    white-space: nowrap;
+    font-family: Jost, sans-serif;
+    width: 42.271vw;
+    height: 9.662vw;
+    position: absolute;
+    left: 50%;
+    bottom: 27.778vw;
+    transform: translate(-50%, 0%);
+    overflow:hidden;
+}
+
+.answer-button .progress {
+    background-color: #FF8900;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: var(--answerProgress);
+}
+
+.answer-button .text {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    padding-top: 1.1vw;
+    font-family: Jost, sans-serif;
+}

@@ -1,0 +1,40 @@
+.quit-game {
+    width: 100%;
+    height: 100%;
+    background-image: url('../img/quitGameBg.svg');
+}
+
+.quit-game h2 {
+    position:absolute;
+    margin: 0;
+    top: 31.401vw;
+    left: 20vw;
+    width: 60vw;
+    text-align: center;
+    font-family: Jost, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 4.438vw;
+    color: #F2F2F2;
+}
+
+.quit-game .button.ok {
+    position: absolute;
+    transform: translate(-50%, 0%);
+    left: 50%;
+    top: 53.14vw;
+    width: 41.063vw;
+}
+
+.quit-game .button.cancel {
+    position: absolute;
+    transform: translate(-50%, 0%);
+    left: 50%;
+    top: 72.464vw;
+    width: 41.063vw;
+}
+
+.quit-game .button.ok > button,
+.quit-game .button.cancel > button {
+    width: 100%;
+}

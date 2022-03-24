@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
+    <title>Leipzig 89</title>
+    <link rel="stylesheet" href="/css/screen.css?cacheBuster=3248235723493"/>
+  </head>
+  <body oncontextmenu="return false;">
+    <iframe id="gameFrame" src="game.html?cacheBuster=3248235723493"></iframe>
+    <script>
+      if (document.location && document.location.pathname && document.location.pathname.length > 1) {
+        document.getElementById('gameFrame').src = 'game.html?access=' + document.location.pathname.replace(/\D/g,'');
+      }
+    </script>
+  </body>
+</html>

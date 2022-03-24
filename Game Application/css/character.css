@@ -1,0 +1,190 @@
+.select-character-view {
+    width: 100%;
+    min-height: 100%;
+    background-image: url('../img/character-background.svg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.select-character-view .inner {
+    position: relative;
+    min-height: 160vw;
+    height: 100vh;
+}
+
+.select-character-view h2 {
+    font-size: 4.831vw;
+    padding: 20.531vw 20.531vw 0 20.531vw;
+    margin: 0;
+    font-family: Jost, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    text-transform: uppercase;
+    text-align: center;
+    color: #121229;
+    line-height: 6.039vw;
+}
+
+.select-character-view .character-wheel {
+    width: 100vw;
+    height: 60vw;
+    position: relative;
+    margin-top: 5vw;
+    overflow:hidden;
+}
+
+.select-character-view .character-wheel-rotate {
+    width: 300vw;
+    height: 300vw;
+    background-image: url('../img/rad-2000px-min.png');
+    background-size: 100% auto;
+    position: absolute;
+    left: -100vw;
+    top: 0;
+    transform: rotate(var(--wheelDegree));
+    -webkit-transform: rotate(var(--wheelDegree));
+}
+
+.select-character-view .character-wheel-rotate.animate {
+    animation: moveWheel var(--time) ease-out forwards;
+}
+
+.select-character-view .image.off:before {
+    width: 43.478vw;
+    height: 43.478vw;
+    background-size: 100% auto;
+    position: absolute;
+    content: '';
+    background-image: var(--wheelImage1);
+    background-repeat: no-repeat;
+    left: 28.261vw;
+}
+
+.select-character-view .image.off:after {
+    width: 43.478vw;
+    height: 43.478vw;
+    background-size: 100% auto;
+    position: absolute;
+    content: '';
+    background-image: var(--wheelImage2);
+    background-repeat: no-repeat;
+    left: 28.261vw;
+}
+
+.select-character-view .title {
+    font-family: Merriweather,serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 6.280vw;
+    color: #F2F2F2;
+    text-align: center;
+    margin-top: -8vw;
+}
+
+.select-character-view .default-button {
+    margin: 4.522vw auto;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    position: relative;
+}
+
+.select-character-view .wheel-container {
+    width: 100%;
+    height: 42.14vw;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.select-character-view .wheel-container:before {
+    background-image: url('../img/wheel-selected.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    -webkit-transform: translate(-50%, 0%);
+    top: 0px;
+    content: '';
+    width: 61.111vw;
+    height: 12.077vw;
+}
+
+.select-character-view .wheel-container .wheel {
+    background-image: url('../img/wheel.png');
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    width: 138.164vw;
+    height: 138.164vw;
+    position: absolute;
+    left: -19.082vw;
+    top: 4.415vw;
+    transform: rotate(var(--wheelDegree));
+    -webkit-transform: rotate(var(--wheelDegree));
+}
+
+.select-character-view .wheel-container .wheel.animate {
+    animation: moveWheel var(--time) ease-out forwards;
+}
+
+@keyframes moveWheel {
+    from {
+    }
+    to {
+        transform: rotate(var(--animateWheelDegree));
+        -webkit-transform: rotate(var(--animateWheelDegree));
+    }
+}
+
+.select-character-view .wheel-container .wheel ul {
+    list-style-type: none;
+}
+
+.select-character-view .wheel-container .wheel ul li {
+    background-size: 20vw auto;
+    background-position: 59.082vw 6vw;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 138.164vw;
+    height: 138.164vw;
+    transform: translate(-50%, 0%);
+}
+
+.select-character-view .wheel-container .wheel ul li:nth-child(1) {
+    background-image: url('../img/dederon-beutel.png');
+    transform: rotate(0deg);
+}
+
+.select-character-view .wheel-container .wheel ul li:nth-child(2) {
+    background-image: url('../img/dederon-beutel.png');
+    transform: rotate(51.43deg);
+}
+
+.select-character-view .wheel-container .wheel ul li:nth-child(3) {
+    background-image: url('../img/dederon-beutel.png');
+    transform: rotate(102.86deg);
+}
+
+.select-character-view .wheel-container .wheel ul li:nth-child(4) {
+    background-image: url('../img/dederon-beutel.png');
+    transform: rotate(154.29deg);
+}
+
+.select-character-view .wheel-container .wheel ul li:nth-child(5) {
+    background-image: url('../img/dederon-beutel.png');
+    transform: rotate(205.72deg);
+}
+
+.select-character-view .wheel-container .wheel ul li:nth-child(6) {
+    background-image: url('../img/dederon-beutel.png');
+    transform: rotate(257.15deg);
+}
+
+.select-character-view .wheel-container .wheel ul li:nth-child(7) {
+    background-image: url('../img/dederon-beutel.png');
+    transform: rotate(308.58deg);
+}

@@ -1,0 +1,45 @@
+.story-end {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #242444;
+}
+
+.story-end .main-image {
+    width: 100vw;
+    height: 100vw;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+
+.story-end .next {
+    background-image: url('../img/back.svg');
+    background-size: 100% auto;
+    content: '';
+    width: 9.179vw;
+    height: 9.179vw;
+    position: absolute;
+    right: 3.623vw;
+    bottom: 7.246vw;
+    transform: rotate(180deg);
+    cursor: pointer;
+}
+
+.story-end .text,
+.story-end .text1 {
+    padding: 9.662vw;
+    font-family: Jost, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: #fff;
+    line-height: 5.797vw;
+    font-size: 4.348vw;
+    padding-bottom: 2vw;
+}
+
+.story-end .text1 {
+    margin-top: 2.124vw;
+    padding-top: 0;
+}

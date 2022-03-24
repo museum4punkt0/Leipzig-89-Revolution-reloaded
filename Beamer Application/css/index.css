@@ -1,0 +1,662 @@
+
+/* JOST */
+/* cyrillic */
+@font-face {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 100;
+    font-display: swap;
+    src: url(../fonts/Jost/92zatBhPNqw73oDd4jQmfxIC7w.woff2) format('woff2');
+    unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* latin-ext */
+@font-face {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 100;
+    font-display: swap;
+    src: url(../fonts/Jost/92zatBhPNqw73ord4jQmfxIC7w.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 100;
+    font-display: swap;
+    src: url(fonts/Jost/92zatBhPNqw73oTd4jQmfxI.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic */
+@font-face {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 200;
+    font-display: swap;
+    src: url(../fonts/Jost/92zatBhPNqw73oDd4jQmfxIC7w.woff2) format('woff2');
+    unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* latin-ext */
+@font-face {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 200;
+    font-display: swap;
+    src: url(../fonts/Jost/92zatBhPNqw73ord4jQmfxIC7w.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 200;
+    font-display: swap;
+    src: url(../fonts/Jost/92zatBhPNqw73oTd4jQmfxI.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic */
+@font-face {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 300;
+    font-display: swap;
+    src: url(../fonts/Jost/92zatBhPNqw73oDd4jQmfxIC7w.woff2) format('woff2');
+    unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* latin-ext */
+@font-face {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 300;
+    font-display: swap;
+    src: url(../fonts/Jost/92zatBhPNqw73ord4jQmfxIC7w.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 300;
+    font-display: swap;
+    src: url(../fonts/Jost/92zatBhPNqw73oTd4jQmfxI.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic */
+@font-face {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(../fonts/Jost/92zatBhPNqw73oDd4jQmfxIC7w.woff2) format('woff2');
+    unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* latin-ext */
+@font-face {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(../fonts/Jost/92zatBhPNqw73ord4jQmfxIC7w.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(../fonts/Jost/92zatBhPNqw73oTd4jQmfxI.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic */
+@font-face {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    src: url(../fonts/Jost/92zatBhPNqw73oDd4jQmfxIC7w.woff2) format('woff2');
+    unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* latin-ext */
+@font-face {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    src: url(../fonts/Jost/92zatBhPNqw73ord4jQmfxIC7w.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    src: url(../fonts/Jost/92zatBhPNqw73oTd4jQmfxI.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic */
+@font-face {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 600;
+    font-display: swap;
+    src: url(../fonts/Jost/92zatBhPNqw73oDd4jQmfxIC7w.woff2) format('woff2');
+    unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* latin-ext */
+@font-face {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 600;
+    font-display: swap;
+    src: url(../fonts/Jost/92zatBhPNqw73ord4jQmfxIC7w.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 600;
+    font-display: swap;
+    src: url(../fonts/Jost/92zatBhPNqw73oTd4jQmfxI.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic */
+@font-face {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url(fonts/Jost/92zatBhPNqw73oDd4jQmfxIC7w.woff2) format('woff2');
+    unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* latin-ext */
+@font-face {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url(../fonts/Jost/92zatBhPNqw73ord4jQmfxIC7w.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url(../fonts/Jost/92zatBhPNqw73oTd4jQmfxI.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic */
+@font-face {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 800;
+    font-display: swap;
+    src: url(../fonts/Jost/92zatBhPNqw73oDd4jQmfxIC7w.woff2) format('woff2');
+    unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* latin-ext */
+@font-face {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 800;
+    font-display: swap;
+    src: url(../fonts/Jost/92zatBhPNqw73ord4jQmfxIC7w.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 800;
+    font-display: swap;
+    src: url(../fonts/Jost/92zatBhPNqw73oTd4jQmfxI.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic */
+@font-face {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 900;
+    font-display: swap;
+    src: url(../fonts/Jost/92zatBhPNqw73oDd4jQmfxIC7w.woff2) format('woff2');
+    unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* latin-ext */
+@font-face {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 900;
+    font-display: swap;
+    src: url(../fonts/Jost/92zatBhPNqw73ord4jQmfxIC7w.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 900;
+    font-display: swap;
+    src: url(../fonts/Jost/92zatBhPNqw73oTd4jQmfxI.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+* {
+    font-family: 'Jost', sans-serif;
+}
+
+html, body, #magic, #magic > div:not(.overlay)
+{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+div, ul, li {
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -moz-user-select: none; /* Old versions of Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; /* Non-prefixed version, currently supported by Chrome, Edge, Opera and Firefox */
+}
+
+body {
+    padding:
+            env(safe-area-inset-top)
+            env(safe-area-inset-right)
+            env(safe-area-inset-bottom)
+            env(safe-area-inset-left);
+    width: calc(100% - env(safe-area-inset-left) - env(safe-area-inset-right));
+    height: calc(100% - env(safe-area-inset-top) - env(safe-area-inset-bottom));
+}
+
+#magic {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+#magic div.overlay {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 100%;
+    top: 0;
+    bottom: 0;
+}
+
+.dial {
+    width: 100%;
+    height: 100%;
+    background-image: url('../img/dial.svg');
+    position: relative;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.dial .inner {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transform-origin: center;
+}
+
+.dial .inner.historical.show {
+    animation: fadeIn 0.5s ease-in forwards;
+}
+
+.dial .inner.historical.hide {
+    animation: fadeOut 0.5s ease-out forwards;
+}
+
+.dial .inner .donut-segment {
+    transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    -moz-transform: scaleX(-1);
+    -ms-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    transform-origin: center;
+    stroke: #3A3A5E;
+}
+
+.dial .inner-circle {
+    width: 83.333vw;
+    height: 83.333vw;
+    background-image: url('../img/inner-circle.svg');
+    position: absolute;
+    top: 8.333vw;
+    left: 8.333vw;
+    border-radius: 50%;
+}
+
+.dial .outer-circle {
+    width: 100vw;
+    height: 100vw;
+    background-image: url('../img/outer-circle.svg');
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 50%;
+}
+
+.dial .historical-artefact {
+    width: 83.333vw;
+    height: 83.333vw;
+    position: absolute;
+    top: 8.333vw;
+    left: 8.333vw;
+    border-radius: 50%;
+    background-size: 100% auto;
+}
+
+.dial .dial-hours {
+    width: 100vw;
+    height: 100vw;
+    background-image: url('../img/dial-hours.svg');
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.dial .pointer-hour {
+    width: 100vw;
+    height: 100vw;
+    background-image: url('../img/pointer-hour.svg');
+    position: absolute;
+    left: 0;
+    top: 0;
+    transform: rotate(var(--hourDegree));
+}
+
+.dial .pointer-minute {
+    width: 100vw;
+    height: 100vw;
+    background-image: url('../img/pointer-minute.svg');
+    position: absolute;
+    left: 0;
+    top: 0;
+    transform: rotate(var(--minuteDegree));
+}
+
+.dial .arrow {
+    width: 100vw;
+    height: 100vw;
+    background-image: url('../img/arrow.svg');
+    position: absolute;
+    left: 0;
+    top: 0;
+    transform: rotate(-30.5deg);
+    opacity: 0;
+}
+
+.dial.with-artefact .arrow:not(.large) {
+    opacity: 0 !important;
+    left: -500vw !important;
+    top: -500vw !important;
+}
+
+.dial .arrow.shown {
+    opacity: 1;
+}
+
+.dial .arrow.visible {
+    animation: fadeIn var(--time) ease-in forwards;
+}
+
+.dial .arrow.invisible {
+    animation: fadeOut var(--time) ease-in forwards;
+}
+
+.dial .arrow.animate {
+    animation: rotateTo var(--time) ease-in forwards;
+}
+
+.dial .arrow.large {
+    background-image: url('../img/arrow-large.svg');
+    opacity: 1;
+}
+
+.dial .arrow.large .character-small {
+    width: 12vw;
+    height: 12vw;
+    position: absolute;
+    left: 12vw;
+    background-size: 100% auto;
+    border-radius: 50%;
+    top: 25vw;
+}
+
+.dial .number {
+    font-family: Jost, sans-serif;
+    font-size: 3vw;
+    font-weight: bold;
+    width: 6vw;
+    height: 5.2vw;
+    text-align: center;
+    color: #FF8900;
+    position: absolute;
+    padding-top: 0.8vw;
+}
+
+.dial .number small {
+    font-size: 1vw;
+    vertical-align: top;
+    margin-left: -1vw;
+}
+
+.dial .number.item-1 {
+    left: 1.446vw;
+    top: 47vw;
+}
+
+.dial.masur .number.item-1 {
+    color: #3A3A5E;
+}
+
+.dial .number.item-2 {
+    left: 7.128vw;
+    top: 24.793vw;
+}
+
+.dial.almut .number.item-2 {
+    color: #3A3A5E;
+}
+
+.dial .number.item-3 {
+    left: 24.793vw;
+    top: 7.231vw;
+}
+
+.dial.hannes .number.item-3 {
+    color: #3A3A5E;
+}
+
+.dial .number.item-4 {
+    left: 47vw;
+    top: 1.446vw;
+}
+
+.dial.thomas .number.item-4 {
+    color: #3A3A5E;
+}
+
+.dial .number.item-5 {
+    left: 69.215vw;
+    top: 7.231vw;
+}
+
+.dial.frauke .number.item-5 {
+    color: #3A3A5E;
+}
+
+.dial .number.item-6 {
+    left: 86.777vw;
+    top: 24.793vw;
+}
+
+.dial.egon .number.item-6 {
+    color: #3A3A5E;
+}
+
+.dial .number.item-7 {
+    left: 92.665vw;
+    top: 47vw;
+}
+
+.dial.sabine .number.item-7 {
+    color: #3A3A5E;
+}
+
+.dial .number.filled {
+    background-color: #FF8900;
+    color: #3A3A5E;
+    border-radius: 50%;
+}
+
+.dial:not(.with-artefact) .number {
+    color: #5D5D95;
+}
+
+.dial .instruction,
+.dial .character0,
+.dial .character1,
+.dial .character2,
+.dial .character3,
+.dial .character4,
+.dial .character5,
+.dial .character6,
+.dial .demoverlauf1,
+.dial .demoverlauf2,
+.dial .demoverlauf3,
+.dial .demoverlauf4,
+.dial .demoverlauf5,
+.dial .demoverlauf6 {
+    background-size: 100% auto;
+    width: 81.4vw;
+    height: 81.4vw;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    opacity: 0;
+}
+
+.dial .character0,
+.dial .character1,
+.dial .character2,
+.dial .character3,
+.dial .character4,
+.dial .character5,
+.dial .character6,
+.dial .demoverlauf1,
+.dial .demoverlauf2,
+.dial .demoverlauf3,
+.dial .demoverlauf4,
+.dial .demoverlauf5,
+.dial .demoverlauf6 {
+    width: 82.333vw;
+    height: 82.333vw;
+}
+
+.dial .instruction {
+    background-image: url('../img/projektion/anleitung.jpg');
+}
+
+.dial .character0 {
+    background-image: url('../img/projektion/kurt_pro.jpg');
+}
+
+.dial .character1 {
+    background-image: url('../img/projektion/almut_pro.jpg');
+}
+
+.dial .character2 {
+    background-image: url('../img/projektion/hannes_pro.jpg');
+}
+
+.dial .character3 {
+    background-image: url('../img/projektion/thomas_pro.jpg');
+}
+
+.dial .character4 {
+    background-image: url('../img/projektion/frauke_pro.jpg');
+}
+
+.dial .character5 {
+    background-image: url('../img/projektion/egon_pro.jpg');
+}
+
+.dial .character6 {
+    background-image: url('../img/projektion/sabine_pro.jpg');
+}
+
+.dial .demoverlauf1 {
+    background-image: url('../img/projektion/demo_verlauf_00.jpg');
+}
+
+.dial .demoverlauf2 {
+    background-image: url('../img/projektion/demo_verlauf_01.jpg');
+}
+
+.dial .demoverlauf3 {
+    background-image: url('../img/projektion/demo_verlauf_02.jpg');
+}
+
+.dial .demoverlauf4 {
+    background-image: url('../img/projektion/demo_verlauf_03.jpg');
+}
+
+.dial .demoverlauf5 {
+    background-image: url('../img/projektion/demo_verlauf_04.jpg');
+}
+
+.dial .demoverlauf6 {
+    background-image: url('../img/projektion/demo_verlauf_05.jpg');
+}
+
+.dial .instruction.animate,
+.dial .character0.animate,
+.dial .character1.animate,
+.dial .character2.animate,
+.dial .character3.animate,
+.dial .character4.animate,
+.dial .character5.animate,
+.dial .character6.animate,
+.dial .demoverlauf1.animate,
+.dial .demoverlauf2.animate,
+.dial .demoverlauf3.animate,
+.dial .demoverlauf4.animate,
+.dial .demoverlauf5.animate,
+.dial .demoverlauf6.animate {
+    animation: fadeInOutAnimation var(--time) ease-in forwards;
+}
+
+@-webkit-keyframes fadeInOutAnimation { /* Für Safari und Chrome */
+    0% { opacity: 0;}
+    10% { opacity: 0.5;}
+    20% { opacity: 1;}
+    70% { opacity: 1;}
+    90% { opacity: 0.5;}
+    100% { opacity: 0;}
+}
+
+@-webkit-keyframes fadeIn { /* Für Safari und Chrome */
+    0% { opacity: 0;}
+    100% { opacity: 1;}
+}
+
+@-webkit-keyframes fadeOut { /* Für Safari und Chrome */
+    0% { opacity: 1;}
+    100% { opacity: 0;}
+}
+
+@-webkit-keyframes rotateTo { /* Für Safari und Chrome */
+    0% {}
+    100% {transform: rotate(var(--degree)); }
+}

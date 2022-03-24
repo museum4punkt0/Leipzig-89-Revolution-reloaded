@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1200">
+    <defs>
+        <style>.cls-1{fill:#ff8900;}</style>
+    </defs>
+    <g>
+        <g id="Personenzeiger">
+            <circle class="cls-1" cx="217.03" cy="372.7" r="80"
+                    transform="translate(-199.97 262.63) rotate(-45)"/>
+            <path id="Zeiger" class="cls-1"
+                  d="M165.09,342.52a221.85,221.85,0,0,1,38.23-48.58l-111.2,6.18,49.69,99.67A221.8,221.8,0,0,1,165.09,342.52Z"/>
+        </g>
+    </g>
+</svg>

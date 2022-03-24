@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="113.527" height="113.114" viewBox="0 0 113.527 113.114">
+    <defs>
+        <clipPath id="clip-path">
+            <rect id="Rechteck_3964" width="106.999" height="32.726" transform="translate(0 0)" fill="none"/>
+        </clipPath>
+    </defs>
+    <g id="Stecknadel" transform="translate(-46.501 80.866) rotate(-49)">
+        <path id="Pfad_45842" d="M-26.573,77.24,8.084.487" transform="translate(94.935 2.002)" fill="none" stroke="#fd8925" stroke-width="0.5"/>
+        <path id="Pfad_45841" d="M102.48,4a2,2,0,1,0-2-2,2,2,0,0,0,2,2" transform="translate(17.177 -53.808) rotate(31)" fill="none" stroke="#fd8925" stroke-width="0.5"/>
+    </g>
+</svg>

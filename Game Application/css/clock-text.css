@@ -1,0 +1,23 @@
+footer ul.toolbar-items li.clock.active .clock-text {
+    background-color: #242444;
+    width: 88.165vw;
+    padding: 3.623vw 2.415vw;
+    position: absolute;
+    bottom: 19.324vw;
+    left: -38.746vw;
+    color: #F2F2F2;
+    animation: fadeInDialog 0.5s ease-in;
+    text-align: center;
+    font-family: Jost, sans-serif;
+    font-size: 4.348vw;
+    line-height: 5.797vw;
+}
+
+@keyframes fadeInDialog {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}

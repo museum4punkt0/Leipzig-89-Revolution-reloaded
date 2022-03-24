@@ -1,0 +1,62 @@
+.bubble {
+    background-image: url('../img/bubble.svg');
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    -webkit-background-size: 100% 100%;
+    background-size: 100% 100%;
+    margin: 0 auto;
+    width: calc(100% - 17.673vw);
+    padding: 6vw 4.83vw 4vw 4.83vw;
+    position: relative;
+    font-family: 'FonteysPRO-Regular', sans-serif;
+    font-size: 3.865vw;
+    line-height: 5.072vw;
+}
+
+.bubble.top {
+    padding: 4vw 4.83vw;
+}
+
+.bubble.center {
+    text-align: center;
+}
+
+.bubble.answer {
+    background-image: url('../img/answer-bubble.svg');
+}
+
+.main-story.dark .bubble.answer {
+    background-image: url('../img/answer-bubble-dark.svg');
+}
+
+.bubble.bottom {
+    position: absolute;
+    bottom: 21.333vw;
+    left: 4vw;
+}
+
+.bubble:not(.bottom) {
+    text-transform: uppercase;
+}
+
+div.character-detail-view .bubble:not(.bottom) {
+    text-transform: none;
+    padding: 5vw 4.83vw 4vw 4.83vw;
+}
+
+.bubble .title {
+    background-image: url('../img/bubble-title.svg');
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    -webkit-background-size: 100% 100%;
+    background-size: 100% 100%;
+    position: absolute;
+    left: 2.666vw;
+    top: -4vw;
+    padding: 1.333vw 2.666vw;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'FonteysPRO-Regular', sans-serif;
+    font-size: 4.348vw;
+    white-space: nowrap;
+}

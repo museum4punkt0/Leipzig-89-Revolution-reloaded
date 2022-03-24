@@ -1,0 +1,115 @@
+footer ul.toolbar-items li.clock {
+    position: absolute;
+    right: 44.686vw;
+    top: 4.142vw;
+    width: 9.35vw;
+    height: 9.35vw;
+}
+
+footer ul.toolbar-items li.clock.active {
+    animation: setClockActive 0.3s ease-in forwards;
+    right: 41.149vw;
+    top: -5.06667vw;
+    width: 16.425vw;
+    height: 16.425vw;
+}
+
+footer ul.toolbar-items li.clock.inactive {
+    animation: setClockInactive 0.3s ease-in forwards;
+}
+
+footer ul.toolbar-items li.clock .dial {
+    background-image: url('../img/clock.svg');
+    background-size: 100% auto;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+footer ul.toolbar-items li.clock.active .dial {
+    background: transparent;
+}
+
+footer ul.toolbar-items li.clock.active:before {
+    background: url('../img/clock-active.svg');
+    background-size: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 16.425vw;
+    height: 16.425vw;
+    content: '';
+}
+
+footer ul.toolbar-items li.clock > div {
+    background-repeat: no-repeat;
+    position: absolute;
+}
+
+footer ul.toolbar-items li.clock .minute {
+    background-image: url('../img/clock-minute.svg');
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: 100% auto;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+footer ul.toolbar-items li.clock .minute.animate {
+    animation: movePointer var(--time) ease-out forwards;
+}
+
+footer ul.toolbar-items li.clock.active .minute {
+    background-image: url('../img/clock-minute-active.svg');
+}
+
+footer ul.toolbar-items li.clock .hour {
+    background-image: url('../img/clock-hour.svg');
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-position: center right;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+footer ul.toolbar-items li.clock .hour.animate {
+    animation: movePointer var(--time) ease-out forwards;
+}
+
+footer ul.toolbar-items li.clock.active .hour {
+    background-image: url('../img/clock-hour-active.svg');
+}
+
+@keyframes setClockActive {
+    0% {
+        margin-top: 0;
+    }
+    100% {
+        margin-top: -6.933vw;
+    }
+}
+
+@keyframes setClockInactive {
+    0% {
+        margin-top: -6.933vw;
+    }
+    100% {
+        margin-top: 0;
+    }
+}
+
+@keyframes movePointer {
+    0% {}
+    100% {
+        transform: rotate(var(--degree));
+    }
+}

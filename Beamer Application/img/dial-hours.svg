@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1200">
+    <defs>
+        <style>.cls-1{fill:#ff8900;}</style>
+    </defs>
+    <g>
+        <g id="Uhr">
+            <g>
+                <rect class="cls-1" x="267.28" y="348.08" width="27.07"
+                      height="135.33" transform="translate(-219.64 451.06) rotate(-60)"/>
+                <rect class="cls-1" x="905.63" y="716.63" width="27.07"
+                      height="135.33" transform="translate(-219.64 1188.17) rotate(-60)"/>
+                <rect class="cls-1" x="716.61" y="267.3" width="135.33"
+                      height="27.07" transform="translate(148.93 819.63) rotate(-60)"/>
+                <rect class="cls-1" x="348.07" y="905.64" width="135.33"
+                      height="27.07" transform="translate(-588.16 819.63) rotate(-60)"/>
+                <rect class="cls-1" x="213.17" y="770.76" width="135.33"
+                      height="27.07" transform="translate(-354.52 245.49) rotate(-30)"/>
+                <rect class="cls-1" x="851.52" y="402.21" width="135.33"
+                      height="27.07" transform="translate(-84.72 515.29) rotate(-30)"/>
+                <rect class="cls-1" x="402.2" y="213.16" width="27.07"
+                      height="135.33" transform="translate(-84.71 245.49) rotate(-30)"/>
+                <rect class="cls-1" x="770.75" y="851.49" width="27.07"
+                      height="135.33" transform="translate(-354.51 515.29) rotate(-30)"/>
+                <rect class="cls-1" x="163.78" y="586.49" width="135.33"
+                      height="27.07"/>
+                <rect class="cls-1" x="900.89" y="586.49" width="135.33"
+                      height="27.07"/>
+                <rect class="cls-1" x="586.48" y="163.79" width="27.07"
+                      height="135.33"/>
+                <rect class="cls-1" x="586.48" y="900.88" width="27.07"
+                      height="135.33"/>
+            </g>
+        </g>
+    </g>
+</svg>

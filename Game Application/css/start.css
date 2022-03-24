@@ -1,0 +1,59 @@
+.start-view {
+    width: 100%;
+    height: 100%;
+    background-color: #242444;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.start-view .title-image {
+    width: 100%;
+    height: 100%;
+    background-image: url('../img/start-character.png');
+    background-position: center 18vw;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    position: relative;
+}
+
+.start-view h1 {
+    margin: 0;
+    padding: 89vw 0 0 13.29vw;
+}
+
+.start-view h1 img {
+    width: 77.29vw;
+}
+
+.start-view .button {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    bottom: 18.116vw;
+}
+
+.start-view .language {
+    position: absolute;
+    bottom: 5.31vw;
+    left: 8vw;
+    font-size: 3.623vw;
+    color: #FF8900;
+    text-decoration: underline;
+    font-family: Jost, sans-serif;
+    display: none;
+}
+
+.start-view .more {
+    position: absolute;
+    bottom: 5.31vw;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    font-size: 3.623vw;
+    color: #FF8900;
+    text-decoration: underline;
+    font-family: Jost, sans-serif;
+    width: 30vw;
+    text-align: center;
+    cursor: pointer;
+}

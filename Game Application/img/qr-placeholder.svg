@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="227.001" height="225.256" viewBox="0 0 227.001 225.256">
+    <g transform="translate(-15.596 -320)">
+        <g transform="translate(16.596 321)">
+            <g transform="translate(0 0)">
+                <g transform="translate(0 0)">
+                    <g>
+                        <line x2="30.882" transform="translate(0 0.231)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="2"/>
+                        <line x2="31.395" transform="translate(0) rotate(90)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="2"/>
+                    </g>
+                </g>
+                <g transform="translate(0 191.861)">
+                    <g>
+                        <line x2="30.882" transform="translate(0 31.165)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="2"/>
+                        <line x2="31.395" transform="translate(0 31.395) rotate(-90)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="2"/>
+                    </g>
+                </g>
+                <g transform="translate(194.118 0)">
+                    <g transform="translate(0 0)">
+                        <line x1="30.882" transform="translate(0 0.231)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="2"/>
+                        <line x2="31.395" transform="translate(30.882 0) rotate(90)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="2"/>
+                    </g>
+                </g>
+                <g transform="translate(194.118 191.861)">
+                    <g transform="translate(0)">
+                        <line x1="30.882" transform="translate(0 31.165)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="2"/>
+                        <line x2="31.395" transform="translate(30.882 31.395) rotate(-90)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="2"/>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

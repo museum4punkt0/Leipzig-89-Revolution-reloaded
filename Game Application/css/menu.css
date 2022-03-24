@@ -1,0 +1,113 @@
+.default-menu {
+    background-image: url('../img/burger-menu.svg');
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    width: 7.729vw;
+    height: 7.729vw;
+    position: absolute;
+    right: 4.831vw;
+    top: 7.246vw;
+    cursor: pointer;
+    z-index: 2;
+}
+
+.main-menu {
+    width: 57.004vw;
+    padding-left: 7.247vw;
+    height: 100%;
+    position: absolute;
+    right: -64.251vw;
+    top: 0;
+    background-color: #8787D6;
+    z-index: 2;
+    overflow: scroll;
+}
+
+.main-menu .lang {
+    font-family: Jost, sans-serif;
+    font-size: 4.348vw;
+    position: relative;
+}
+
+.main-menu .lang:before {
+    background-image: url('../img/menu-lang.svg');
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    width: 5.797vw;
+    height: 5.797vw;
+    content: '';
+    display: block;
+    position: absolute;
+    left: 0;
+}
+
+.main-menu .lang.selected:before {
+    background-image: url('../img/menu-lang-selected.svg');
+}
+
+.main-menu .lang.de {
+    padding: 19.324vw 0 0 12.077vw;
+}
+
+.main-menu .lang.en {
+    padding: 8.493vw 0 0 12.077vw;
+}
+
+.main-menu .menu-text {
+    padding: 13.816vw 8.454vw 0 0;
+    font-family: Jost, sans-serif;
+    font-size: 3.348vw;
+}
+
+.main-menu .infos {
+    padding: 8.116vw 8.454vw 0 0;
+    text-decoration: underline;
+    font-family: Jost, sans-serif;
+    font-size: 3.348vw;
+}
+
+.main-menu .imprint {
+    padding: 4.246vw 8.454vw 7.246vw 0;
+    text-decoration: underline;
+    font-family: Jost, sans-serif;
+    font-size: 3.348vw;
+}
+
+.main-menu.open {
+    display: block;
+    animation: openMenu 0.2s ease-out forwards;
+}
+
+.main-menu.close {
+    display: block;
+    animation: closeMenu 0.2s ease-out forwards;
+}
+
+.main-menu .close {
+    width: 10.145vw;
+    height: 10.145vw;
+    background: url('../img/close-menu-2.svg') no-repeat;
+    position: absolute;
+    right: 3.623vw;
+    top: 3.623vw;
+    z-index: 2;
+    background-size: 100% auto;
+}
+
+@keyframes openMenu {
+    from {
+        right: -64.251vw;
+    }
+    to {
+        right: 0vw;
+    }
+}
+
+@keyframes closeMenu {
+    from {
+        right: 0vw;
+    }
+    to {
+        right: -64.251vw;
+    }
+}
