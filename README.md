@@ -19,6 +19,7 @@
 
 Diese Webanwendung ist entstanden im Verbundprojekt museum4punkt0 – Digitale Strategien für das Museum der Zukunft, Teilprojekt "Vergangene Zukunft" digital. Das Projekt museum4punkt0 wird gefördert durch die Beauftragte der Bundesregierung für Kultur und Medien aufgrund eines Beschlusses des Deutschen Bundestages. Weitere Informationen: www.museum4punkt0.de
 
+[BKM](https://BKM_Fz_2017_Web_de.gif)
 BKM_Fz_2017_Web_de.gif
 BKM_Neustart_Kultur_Wortmarke_neg_RGB_RZ.png
 
