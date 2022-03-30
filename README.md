@@ -38,9 +38,9 @@ Auftraggeber/Rechteinhaber: Deutsches Historisches Museum (www.dhm.de)
 Urheber: Playing History (www.playinghistory.de)
 
 ### Lizenz ###
-Copyright © 2022, Deutsches Historisches Museum
+Copyright © 2022, museum4punkt0
 
-[Logo: Lizenz](https://github.com/museum4punkt0/Leipzig-89-Revolution-reloaded/blob/main/Game%20Application/LICENSE)
+[MIT-Lizenz](https://github.com/museum4punkt0/Leipzig-89-Revolution-reloaded/blob/main/Game%20Application/LICENSE)
 
 Geben Sie an, unter welcher Lizenz der Quellcode / die Anwendung steht und verlinken Sie von hier zur Lizenz-Datei, die ebenfalls im Repositorium abgelegt sein sollte. Der Lizenztext kann hier auch komplett wiedergegeben werden.
 Bitte listen Sie hier auch gegebenenfalls wiederverwendete Programmteile Dritter mit deren Lizenzen auf.
