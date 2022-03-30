@@ -12,6 +12,8 @@
 
 ### Kurzbeschreibung ###
 
+"Leipzig '89 - Revolution reloaded" ist eine prototypische Webanwendung des Deutschen Historischen Museums zur spielerischen Vermittlung historischer Inhalte im Museumskontext. In Form einer interaktiven Graphic Novel können die Nutzer:innen aus der Perspektive historischer Akteure einen Tag von historischer Tragweite durchlaufen. Hierbei müssen Entscheidungen getroffen werden, welche den Verlauf des Tages beenflussen. "Leipzig '89 - Revolution reloaded" macht erfahrbar, dass Geschichte eine Prozess mit offenem Ausgang ist und vermittelt spielerisch einen multiperspektischen Blick auf historische Ereignisse.
+
 
 ### Entstehungskontext & Förderhinweise ###
 
