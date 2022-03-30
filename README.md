@@ -15,7 +15,7 @@
 
 ### Entstehungskontext & Förderhinweise ###
 
-Diese Webanwednung ist entstanden im Verbundprojekt museum4punkt0 – Digitale Strategien für das Museum der Zukunft, Teilprojekt "Vergangene Zukunft" digital. Das Projekt museum4punkt0 wird gefördert durch die Beauftragte der Bundesregierung für Kultur und Medien aufgrund eines Beschlusses des Deutschen Bundestages. Weitere Informationen: www.museum4punkt0.de
+Diese Webanwendung ist entstanden im Verbundprojekt museum4punkt0 – Digitale Strategien für das Museum der Zukunft, Teilprojekt "Vergangene Zukunft" digital. Das Projekt museum4punkt0 wird gefördert durch die Beauftragte der Bundesregierung für Kultur und Medien aufgrund eines Beschlusses des Deutschen Bundestages. Weitere Informationen: www.museum4punkt0.de
 
 BKM_Fz_2017_Web_de.gif
 BKM_Neustart_Kultur_Wortmarke_neg_RGB_RZ.png
@@ -32,8 +32,7 @@ Beschreiben Sie die Benutzung der Anwendung nach der Installation. Fügen Sie be
 Geben Sie hier an, ob und in welcher Art man sich an Ihrer Programmierung beteiligen kann. Detailinformationen werden in einer separaten Datei angelegt. Weitere Hinweise hierzu finden Sie unter: https://help.github.com/en/articles/setting-guidelines-for- repository-contributors
 
 ### Credits ###
-Auftraggeber/Rechteinhabe: Deutsches Historisches Museum, Urheber: Playing History
-Die Autor*innen des Codes bzw. zugehörige Agenturen / Firmen / Institutionen können hier verlinkt sein.
+Auftraggeber/Rechteinhabe: Deutsches Historisches Museum, Urheber: Playing History (www.playinghistory.de)
 
 ### Lizenz ###
 Copyright © 2022, Deutsches Historisches Museum
