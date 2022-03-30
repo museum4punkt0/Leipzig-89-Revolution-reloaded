@@ -32,7 +32,7 @@ Beschreiben Sie die Benutzung der Anwendung nach der Installation. Fügen Sie be
 Geben Sie hier an, ob und in welcher Art man sich an Ihrer Programmierung beteiligen kann. Detailinformationen werden in einer separaten Datei angelegt. Weitere Hinweise hierzu finden Sie unter: https://help.github.com/en/articles/setting-guidelines-for- repository-contributors
 
 ### Credits ###
-Auftraggeber/Rechteinhabe: Deutsches Historisches Museum, Urheber: Playing History (www.playinghistory.de)
+Auftraggeber/Rechteinhaber: Deutsches Historisches Museum (www.dhm.de), Urheber: Playing History (www.playinghistory.de)
 
 ### Lizenz ###
 Copyright © 2022, Deutsches Historisches Museum
