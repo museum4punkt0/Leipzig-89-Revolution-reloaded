@@ -3,7 +3,7 @@
 
 ## Inhaltsverzeichnis
 * [Kurzbeschreibung](#Kurzbeschreibung) 
-* [Förderhinweis](#Förderhinweis)
+* [Entstehungskontext & Förderhinweise](#Förderhinweis)
 * [Installation](#Installation)
 * [Benutzung](#Benutzung)
 * [Credits](#Credits)
