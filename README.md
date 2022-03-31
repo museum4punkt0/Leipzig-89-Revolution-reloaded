@@ -72,9 +72,9 @@ Die Webanwendung wird im Browser geöffnet und kann darin genutzt werden. Es han
 
 
 ### Credits ###
-Auftraggeber/Rechteinhaber: Deutsches Historisches Museum (www.dhm.de)
+Auftraggeber/Rechteinhaber: Stiftung Deutsches Historisches Museum (www.dhm.de)
 
-Urheber: Playing History (www.playinghistory.de)
+Urheber: Playing History UG (www.playinghistory.de)
 
 ### Lizenz ###
 Copyright © 2022, museum4punkt0
