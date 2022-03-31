@@ -79,7 +79,7 @@ Auftraggeber/Rechteinhaber: Stiftung Deutsches Historisches Museum (www.dhm.de)
 Urheber: Playing History UG (www.playinghistory.de)
 
 ### Lizenz ###
-Copyright © 2022, museum4punkt0
+Copyright © 2022, Stiftung Deutsches Historisches Museum 
 
 [MIT-Lizenz](https://github.com/museum4punkt0/Leipzig-89-Revolution-reloaded/blob/main/Game%20Application/LICENSE)
 
