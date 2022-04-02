@@ -12,12 +12,8 @@
   "license": "MIT",
   "private": true,
   "dependencies": {
-    "@capacitor/android": "^3.3.2",
-    "@capacitor/cli": "^3.3.2",
-    "@capacitor/core": "^3.3.2",
     "@fortawesome/fontawesome-free": "^5.15.4",
     "copy-webpack-plugin": "^10.0.0",
-    "cordova-plugin-screen-orientation": "^3.0.2",
     "es6-promise-plugin": "^4.2.2",
     "path": "^0.12.7",
     "react": "^17.0.2",
