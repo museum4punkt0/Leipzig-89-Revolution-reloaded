@@ -12,7 +12,7 @@
 
 ### Kurzbeschreibung ###
 
-"Leipzig '89 - Revolution reloaded" ist eine prototypische Web-Application des Deutschen Historischen Museums zur spielerischen Vermittlung historischer Inhalte im Museumskontext. In Form einer interaktiven Graphic Novel können die Nutzer:innen aus der Perspektive historischer Akteure einen Tag von historischer Tragweite durchlaufen, den 9. Oktober 1989 in Leipzig. Hierbei müssen Entscheidungen getroffen werden, welche den Verlauf des Tages beeinflussen. "Leipzig '89 - Revolution reloaded" macht erfahrbar, dass Geschichte ein Prozess mit offenem Ausgang ist und vermittelt spielerisch einen multiperspektivischen Blick auf historische Ereignisse sowie die Tragweite historischer Entscheidungen. Die Inhalte der Anwendung basieren auf umfassenden wissenschaftlichen Recherchen. Die vorliegende Web-Application ist für den Einsatz in Kombination mit der Beamer-Application vorgesehen.
+"Leipzig '89 - Revolution reloaded" ist eine prototypische Web-Application des Deutschen Historischen Museums zur spielerischen Vermittlung historischer Inhalte im Museumskontext. In Form einer interaktiven Graphic Novel können die Nutzer*innen aus der Perspektive historischer Akteure einen Tag von historischer Tragweite durchlaufen, den 9. Oktober 1989 in Leipzig. Hierbei müssen Entscheidungen getroffen werden, welche den Verlauf des Tages beeinflussen. "Leipzig '89 - Revolution reloaded" macht erfahrbar, dass Geschichte ein Prozess mit offenem Ausgang ist und vermittelt spielerisch einen multiperspektivischen Blick auf historische Ereignisse sowie die Tragweite historischer Entscheidungen. Die Inhalte der Anwendung basieren auf umfassenden wissenschaftlichen Recherchen. Die vorliegende Web-Application ist für den Einsatz in Kombination mit der Beamer-Application vorgesehen.
 
 
 ### Entstehungskontext & Förderhinweise ###
@@ -38,7 +38,7 @@ In einer räumlichen Installation läuft die Beamer-Anwendung auf einem lokalen 
 
 
 ### Benutzung ###
-Die Besucher*innnen betreten den Raum der Installation. Nach einer inhaltlichen Einleitung und Informationen zur Anwendung bzw. Nutzung werden die Besucher*innen zum Spielen aufgefordert. Hierfür gibt es zwei Möglichkeiten: 
+Die Besucher*innen betreten den Raum der Installation. Nach einer inhaltlichen Einleitung und Informationen zur Anwendung bzw. Nutzung werden die Besucher*innen zum Spielen aufgefordert. Hierfür gibt es zwei Möglichkeiten: 
 1. Spielen auf den vor Ort installierten Tablets
 2. Spielen auf dem eigenen Smartphone
 
