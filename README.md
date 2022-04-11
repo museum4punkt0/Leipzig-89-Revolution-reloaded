@@ -12,7 +12,7 @@
 
 ### Kurzbeschreibung ###
 
-"Leipzig '89 - Revolution reloaded" ist eine prototypische Web-Application des Deutschen Historischen Museums zur spielerischen Vermittlung historischer Inhalte im Museumskontext. In Form einer interaktiven Graphic Novel können die Nutzer*innen aus der Perspektive historischer Akteure einen Tag von historischer Tragweite durchlaufen, den 9. Oktober 1989 in Leipzig. Hierbei müssen Entscheidungen getroffen werden, welche den Verlauf des Tages beeinflussen. "Leipzig '89 - Revolution reloaded" macht erfahrbar, dass Geschichte ein Prozess mit offenem Ausgang ist und vermittelt spielerisch einen multiperspektivischen Blick auf historische Ereignisse sowie die Tragweite historischer Entscheidungen. Die Inhalte der Anwendung basieren auf umfassenden wissenschaftlichen Recherchen. Die vorliegende Web-Application ist für den Einsatz in Kombination mit der Beamer-Application vorgesehen.
+"Leipzig '89 - Revolution reloaded" ist eine prototypische Web-Application des Deutschen Historischen Museums zur spielerischen Vermittlung historischer Inhalte im Museumskontext. In Form einer interaktiven Graphic Novel können die Nutzer:innen aus der Perspektive historischer Akteure einen Tag von historischer Tragweite durchlaufen, den 9. Oktober 1989 in Leipzig. Hierbei müssen Entscheidungen getroffen werden, welche den Verlauf des Tages beeinflussen. "Leipzig '89 - Revolution reloaded" macht erfahrbar, dass Geschichte ein Prozess mit offenem Ausgang ist und vermittelt spielerisch einen multiperspektivischen Blick auf historische Ereignisse sowie die Tragweite historischer Entscheidungen. Die Inhalte der Anwendung basieren auf umfassenden wissenschaftlichen Recherchen. Die vorliegende Web-Application ist für den Einsatz in Kombination mit der Beamer-Application vorgesehen.
 
 
 ### Entstehungskontext & Förderhinweise ###
@@ -38,15 +38,15 @@ In einer räumlichen Installation läuft die Beamer-Anwendung auf einem lokalen 
 
 
 ### Benutzung ###
-Die Besucher*innen betreten den Raum der Installation. Nach einer inhaltlichen Einleitung und Informationen zur Anwendung bzw. Nutzung werden die Besucher*innen zum Spielen aufgefordert. Hierfür gibt es zwei Möglichkeiten: 
+Die Besucher:innen betreten den Raum der Installation. Nach einer inhaltlichen Einleitung und Informationen zur Anwendung bzw. Nutzung werden die Besucher:innen zum Spielen aufgefordert. Hierfür gibt es zwei Möglichkeiten: 
 1. Spielen auf den vor Ort installierten Tablets
 2. Spielen auf dem eigenen Smartphone
 
 Da die Interaktion primär für den Einsatz im Museum und an mobilen Endgeräten vorgesehen ist, wurde sie hierfür optimiert. Die Nutzung der Anwendung auf dem Desktop ist technisch möglich, für den Ausstellungsraum jedoch nicht relevant und wurde daher für den Prototyp nicht mit einer entsprechend angepassten Version bedacht.
 
-Bei der Nutzung eines der bereitgestellten Tablets starten die Besucher*innen das Spiel über den Button “Spiel starten” und folgen den Anweisungen auf dem Bildschirm.
+Bei der Nutzung eines der bereitgestellten Tablets starten die Besucher:innen das Spiel über den Button “Spiel starten” und folgen den Anweisungen auf dem Bildschirm.
 
-Bei der Benutzung mit dem Smartphone, müssen die Besucher*innen wie folgt vorgehen:
+Bei der Benutzung mit dem Smartphone, müssen die Besucher:innen wie folgt vorgehen:
 
 1. Verbindung zum WLAN herstellen
 2. Scan des QR-Codes, oder
@@ -54,21 +54,21 @@ Bei der Benutzung mit dem Smartphone, müssen die Besucher*innen wie folgt vorge
 
 Schritt 1 entfällt, wenn der mobile Datenempfang stark genug ist. Von den Schritten 2 und 2 muss nur einer ausgeführt werden. Ziel ist, dass die Besuchenden das Spiel starten und die Verifizierung ihrer Anwesenheit im Museum (“eingeloggen”). Von Personen, die eingeloggt ist, wird innerhalb des Spiels ausgelesen, welche historischen Artefakte angeschaut und welche Personen zum Spielen ausgewählt werden. Diese Informationen werden auf der kreisrunden Projektion in der Mitte der Installation ausgegeben.
 
-Nach dem Start des Spiels erfolgt die Personenauswahl. Aus insgesamt sieben Personen soll durch das Drehen eines Auswahlrades oder das Durchwischen (Swipen) von Personenporträts ein Charakter ausgewählt und bestätigt werden. Nach der Auswahl erhält man eine kurze Übersicht/Vorstellung der Person und des zu ihr gehörigen Objekts. Die Personauswahl kann durch einen Auswahl-Button bestätigt oder durch Rückkehr ins Menü neu gewählt werden.
+Nach dem Start des Spiels erfolgt die Personenauswahl. Aus insgesamt sieben Personen kann durch das Drehen eines Auswahlrades oder das Durchwischen (Swipen) von Personenporträts ein Charakter ausgewählt und bestätigt werden. Nach der Auswahl erhält man zunächst eine kurze Übersicht/Vorstellung der Person und des zu ihr gehörigen Objekts. Die Personauswahl kann durch einen Auswahl-Button bestätigt oder durch Rückkehr ins Menü eine andere Person gewählt werden.
 
 Nach einigen einleitenden Screens zur Geschichte und zum Spiel selbst beginnt das Spiel, eine interaktive Graphic Novel, durch die man sich hindurch tappen kann. Tap auf die rechte Hälfte des Bildschirms führt zum nächsten Textblock oder der nächsten Zeichnung, tap auf die linke Hälfte führt zurück. 
 
-Nach einem Story-Sequenz erreicht man die erste Entscheidung. Nach einer Entscheidung kann nicht mehr zurück navigiert werden. Auf mehreren Kärtchen, die links-rechts duch den Screen gewischt werden können, wird den Spieler*innen eine Frage gestellt und mehrere Entscheidungsmöglichkeiten angeboten. Über einen Button darunter wird die Entscheidung bestätigt.
+Nach einem Story-Sequenz erreicht man die erste Entscheidung. Nach einer Entscheidung kann nicht mehr zurück navigiert werden. Auf mehreren Kärtchen, die links-rechts duch den Screen gewischt werden können, wird den Spieler:innen eine Frage gestellt und mehrere Entscheidungsmöglichkeiten angeboten. Über einen Button darunter wird die Entscheidung bestätigt.
 
 Es gibt zwei verschiedenen Arten von Buttons: Der “Longpress” Button muss eine längere Zeit gedrückt werden, um die Auswahl zu bestätigen. Der “Timeout” Button leert sich optisch langsam und gibt vor, wieviel Zeit man hat, um antworten.
 
 Im Spiel selbst gibt es die Möglichkeit, ein Untermenü zu öffnen, wo der Ton ein- und ausgeschaltet, zwischen den Sprachen Deutsch und Englisch gewechselt und das Spiel abgebrochen werden kann. Außerdem gibt es drei weitere Buttons. Bei einem Tap auf die Uhr werden Informationen angezeigt, was zur gleichen Zeit andernorts in Leipzig passierte. Ein Tap auf die Karte gibt Aufschluss darüber, wo sich die ausgewählte Person gerade befindet. Ein Tap auf das Icon der Person zeigt die Übersichtsseite mit Informationen zur Person sowie zu ihrem Objekt an.
 
-Das Spiel ist in vier bis fünf Kapitel aufgeteilt. Zwischen den Kapiteln erhalten die Spieler*innen die Möglichkeit, die Person zu wechseln. Für den Fall, dass sie mit ihrer Person im Spiel gescheitert sind, also nicht weiterspielen können, müssen sie zwischen den Kapiteln die Person wechseln. Danach schreitet das Spiel wie oben beschrieben fort.
+Das Spiel ist in vier bis fünf Kapitel aufgeteilt. Zwischen den Kapiteln erhalten die Spieler:innen die Möglichkeit, die Person zu wechseln. Für den Fall, dass sie mit ihrer Person im Spiel gescheitert sind, also nicht weiterspielen können, müssen sie zwischen den Kapiteln die Person wechseln. Danach schreitet das Spiel wie oben beschrieben fort.
 
 Am Ende erfolgt eine Auswertung des Spiels und mögliche Spielerfolge oder -niederlagen werden beschrieben.
 
-Nach der Auswertung wird angeboten erneut zu spielen, wofür zwei zufällige Personen, mit denen noch nicht gespielt wurde, angezeigt werden. Es besteht auch die Möglichkeit das Spiel zu beenden, woraufhin ein Feedback der Spieler*innen erfragt wird.
+Nach der Auswertung wird angeboten erneut zu spielen, wofür zwei Personen, mit denen noch nicht gespielt wurde, nach Zufallsprinzip angezeigt werden. Es besteht auch die Möglichkeit das Spiel zu beenden, woraufhin ein Feedback der Spieler:innen erfragt wird.
 
 Die Webanwendung wird in einem Browser geöffnet und genutzt werden. Es handelt sich um eine Webanwendung, die zur Wiedergabe keine besonderen Ansprüche an Browser oder Hardware stellt. Demnach kann die Anwendung in allen aktuellen Browsern geöffnet und ausgeführt werden. 
 
