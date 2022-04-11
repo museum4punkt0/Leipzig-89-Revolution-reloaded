@@ -12,7 +12,7 @@
 
 ### Kurzbeschreibung ###
 
-"Leipzig '89 - Revolution reloaded" ist eine prototypische Web-Application des Deutschen Historischen Museums zur spielerischen Vermittlung historischer Inhalte im Museumskontext. In Form einer interaktiven Graphic Novel können die Nutzer:innen aus der Perspektive historischer Akteure einen Tag von historischer Tragweite durchlaufen, den 9. Oktober 1989 in Leipzig. Hierbei müssen Entscheidungen getroffen werden, welche den Verlauf des Tages beenflussen. "Leipzig '89 - Revolution reloaded" macht erfahrbar, dass Geschichte eine Prozess mit offenem Ausgang ist und vermittelt spielerisch einen multiperspektischen Blick auf historische Ereignisse, sowie die Tragweite historischer Entscheidungen. Die Inhalte der Anwendung sind umfassend wissenschaftlich recherchiert worden. Die Web-Application ist aktuell für den Einsatz in Kombination mit der Beamer-Application vorgesehen.
+"Leipzig '89 - Revolution reloaded" ist eine prototypische Web-Application des Deutschen Historischen Museums zur spielerischen Vermittlung historischer Inhalte im Museumskontext. In Form einer interaktiven Graphic Novel können die Nutzer:innen aus der Perspektive historischer Akteure einen Tag von historischer Tragweite durchlaufen, den 9. Oktober 1989 in Leipzig. Hierbei müssen Entscheidungen getroffen werden, welche den Verlauf des Tages beeinflussen. "Leipzig '89 - Revolution reloaded" macht erfahrbar, dass Geschichte ein Prozess mit offenem Ausgang ist und vermittelt spielerisch einen multiperspektischen Blick auf historische Ereignisse sowie die Tragweite historischer Entscheidungen. Die Inhalte der Anwendung sind umfassend wissenschaftlich recherchiert worden. Die Web-Application ist aktuell für den Einsatz in Kombination mit der Beamer-Application vorgesehen.
 
 
 ### Entstehungskontext & Förderhinweise ###
@@ -31,22 +31,22 @@ Es wird keine spezielle Software benötigt, da es sich um eine Webanwendung hand
 Hinweis für die Beamer-Application: Ersetzen Sie die Socket-URL mit der URL zum Socket-Application. Ersetzen Sie das Beamer-Token mit dem entsprechenden “secret”. 
 
 Installation für Socket-Application: 
-Klonen Sie zuerst das Repository auf Ihr lokales System. Wechseln Sie in das Repository und installieren Sie mit “yarn” benötigte Pakete. Ersetzen Sie den Beamer-Token mit einem “secret”. Anschließend kopieren Sie das Projekt auf das Zielsystem, auf dem es ausgeführt werden soll und starten Sie das Projekt mit “node app.js”.
+Klonen Sie zuerst das Repository auf Ihr lokales System. Wechseln Sie in das Repository und installieren Sie mit “yarn” benötigte Pakete. Ersetzen Sie den Beamer-Token mit einem “secret”. Anschließend kopieren Sie das Projekt auf das Zielsystem, auf dem es ausgeführt werden soll, und starten Sie das Projekt mit “node app.js”.
 
 Technische Installation im Raum: 
-Im Raum läuft die Beamer-Anwendung auf einem lokalen Rechner (Dell OptiPlex 3080 MFF, Core i5-10500T, 8GB RAM, 256GB SSD (7RDCW) oder ähnlich). Dieser verbindet sich mit der Socket-Anwendung über einen Websocket. Der lokale Rechner ist mit einem Beamer (Panasonic PT-VMZ60 oder ähnlich) über Kabel verbunden. Dieser gibt die Projektion der Beamer-Application aus. 
+In einer räumlichen Installation läuft die Beamer-Anwendung auf einem lokalen Rechner (Dell OptiPlex 3080 MFF, Core i5-10500T, 8GB RAM, 256GB SSD (7RDCW) oder ähnlich). Dieser verbindet sich mit der Socket-Anwendung über einen WebSocket. Der lokale Rechner ist mit einem Beamer (Panasonic PT-VMZ60 oder ähnlich) über Kabel verbunden. Dieser gibt die Projektion der Beamer-Application aus. 
 
 
 ### Benutzung ###
-Die Besucher*innen betreten den Raum der Installation. Nach einigen einleitenden Worten und dem inhaltlichen Abholen werden sie zum Spielen aufgefordert. Hierfür haben Sie zwei Möglichkeiten: 
-1. Spielen an bereitgestellten Tablets vor Ort
-2. Spielen am eigenen Smartphone
+Die Besucher:innen betreten den Raum der Installation. Nach einer inhaltlichen Einleitung und Informationen zur Anwendung bzw. Nutzung werden die Besucher:innen zum Spielen aufgefordert. Hierfür gibt es zwei Möglichkeiten: 
+1. Spielen auf den Tablets, bereitgestellt vor Ort
+2. Spielen auf dem eigenen Smartphone
 
-Da die Interaktion primär für den Einsatz im Museum und an mobilen Geräten vorgesehen ist, wurde sie auch daraufhin optimiert. Die Benutzung am Desktop ist technisch möglich, spielt aber für den Ausstellungsraum keine Rolle und wurde daher für diesen Prototypen nicht mit einer entsprechend angepassten Version bedacht.
+Da die Interaktion primär für den Einsatz im Museum und an mobilen Endgeräten vorgesehen ist, wurde sie hierfür optimiert. Die Benutzung am Desktop ist technisch möglich, ist für den Ausstellungsraum jedoch nicht relevant und wurde daher für den Prototyp nicht mit einer entsprechend angepassten Version bedacht.
 
-Bei der Benutzung mit dem Tablet treten die Besuchenden an eines der Geräte heran, starten das Spiel über den Button “Spiel starten” und folgen den Anweisungen auf dem Bildschirm.
+Bei der Nutzung eines der im Raum verorteten Tablets wird das Spiel über den Button “Spiel starten” gestartet und die Besucher*innen folgen den Anweisungen auf dem Bildschirm.
 
-Bei der Benutzung mit dem Smartphone, müssen sie Folgendes tun:
+Bei der Benutzung mit dem Smartphone, müssen sie wie folgt vorgehen:
 
 1. Verbindung zum WLAN herstellen
 2. Scan des QR-Codes, oder
