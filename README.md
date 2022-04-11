@@ -38,7 +38,7 @@ In einer räumlichen Installation läuft die Beamer-Anwendung auf einem lokalen 
 
 
 ### Benutzung ###
-Die Besucher*innen betreten den Raum der Installation. Nach einer inhaltlichen Einleitung und Informationen zur Anwendung bzw. Nutzung werden die Besucher*innen zum Spielen aufgefordert. Hierfür gibt es zwei Möglichkeiten: 
+Die Besucher*innnen betreten den Raum der Installation. Nach einer inhaltlichen Einleitung und Informationen zur Anwendung bzw. Nutzung werden die Besucher*innen zum Spielen aufgefordert. Hierfür gibt es zwei Möglichkeiten: 
 1. Spielen auf den vor Ort installierten Tablets
 2. Spielen auf dem eigenen Smartphone
 
