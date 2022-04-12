@@ -52,7 +52,7 @@ Bei der Nutzung des Smartphones müssen die Besucher*innen zum Spielstart wie fo
 2. Scan des QR-Codes, oder
 3. Aufruf der URL und danach Scan des QR-Codes zur Verifizierung der Anwesenheit im Museum
 
-Schritt 1 entfällt, wenn der mobile Datenempfang stark genug ist. Von den Schritten 2 und 2 muss nur einer ausgeführt werden. Ziel ist, dass die Besuchenden das Spiel starten und die Verifizierung ihrer Anwesenheit im Museum (“eingeloggen”). Von Personen, die eingeloggt ist, wird innerhalb des Spiels ausgelesen, welche historischen Artefakte angeschaut und welche Personen zum Spielen ausgewählt werden. Diese Informationen werden auf der kreisrunden Projektion in der Mitte der Installation ausgegeben.
+Schritt 1 entfällt, wenn der mobile Datenempfang stark genug ist. Von den Schritten 2 und 2 muss nur einer ausgeführt werden. Ziel ist, dass die Besucher*innen das Spiel starten und die Verifizierung ihrer Anwesenheit im Museum (“eingeloggen”). Von Personen, die eingeloggt ist, wird innerhalb des Spiels ausgelesen, welche historischen Artefakte angeschaut und welche Personen zum Spielen ausgewählt werden. Diese Informationen werden auf der kreisrunden Projektion in der Mitte der Installation ausgegeben.
 
 Nach dem Start des Spiels erfolgt die Personenauswahl. Aus insgesamt sieben Personen kann durch das Drehen eines Auswahlrades oder das Durchwischen (Swipen) von Personenporträts ein Charakter ausgewählt und bestätigt werden. Nach der Auswahl erhält man zunächst eine kurze Übersicht/Vorstellung der Person und des zu ihr gehörigen Objekts. Die Personauswahl kann durch einen Auswahl-Button bestätigt oder durch Rückkehr ins Menü eine andere Person gewählt werden.
 
