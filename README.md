@@ -34,10 +34,11 @@ Installation für Socket-Application:
 Klonen Sie zuerst das Repository auf Ihr lokales System. Wechseln Sie in das Repository und installieren Sie mit “yarn” benötigte Pakete. Ersetzen Sie den Beamer-Token mit einem “secret”. Anschließend kopieren Sie das Projekt auf das Zielsystem, auf dem es ausgeführt werden soll, und starten Sie das Projekt mit “node app.js”.
 
 Technische Installation im Raum: 
-In einer räumlichen Installation läuft die Beamer-Anwendung auf einem lokalen Rechner (Dell OptiPlex 3080 MFF, Core i5-10500T, 8GB RAM, 256GB SSD (7RDCW) oder ähnlich). Dieser verbindet sich mit der Socket-Anwendung über einen WebSocket. Der lokale Rechner ist mit einem Beamer (Panasonic PT-VMZ60 oder ähnlich) über Kabel verbunden. Dieser gibt die Projektion der Beamer-Application aus.
+In einer räumlichen Installation läuft die Beamer-Anwendung auf einem lokalen Rechner (Dell OptiPlex 3080 MFF, Core i5-10500T, 8GB RAM, 256GB SSD (7RDCW) oder ähnlich). Dieser verbindet sich mit der Socket-Anwendung über einen WebSocket. Der lokale Rechner ist mit einem Beamer (Panasonic PT-VMZ60 oder ähnlich) über Kabel verbunden. Dieser gibt die Projektion der Beamer-Application aus. Für den Testaufbau wurde neben der visuellen Projektion ein 2.1 Soundsystem im Raum verwendet um parallel Audiofiles ausgeben zu können.
+
+Über die Beamer-Application können, neben Snapshots aus individuellen Spielverläufen einzelner Besucher*innen, visuelle Dokumente (etwa historische Fotografien) ausgespielt werden. Eine Soundausgabe ist ebenfalls vorgesehen. Die Ausgabe von Audio und visuellen Dokumenten (im Testaufbau "historische Artefakte") reagiert auf das Spielverhalten der Besucher*innen und wird in Form von "Triggerpics" bzw. "Triggersounds" nach einer Spielentscheidung einzelner Besucher*innen als Beamerprojektion bzw. über das separat installierte Soundsystem als Aduiofile ausgespielt.
 
 Für Nutzung der Webanwendung im Ausstellungsraum wurden an mehreren Stellen QR-Codes angebracht. Durch scannen des QR-Codes können die Besucher*innen ihre Anwesenheit im Museum verifizieren und direkt auf die Web-URL zugreifen. Das scannen der QR-Codes funktioniert nur wenn die Anwendung auf einer "https"-URL läuft.
-
 
 ### Benutzung ###
 Die Besucher*innen betreten den Raum der Installation. Nach einer inhaltlichen Einleitung und Informationen zur Anwendung bzw. Nutzung werden sie zum Spielen aufgefordert. Hierfür gibt es zwei Möglichkeiten: 
