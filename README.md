@@ -36,11 +36,11 @@ Klonen Sie zuerst das Repository auf Ihr lokales System. Wechseln Sie in das Rep
 Technische Installation im Raum: 
 In einer räumlichen Installation läuft die Beamer-Anwendung auf einem lokalen Rechner (Dell OptiPlex 3080 MFF, Core i5-10500T, 8GB RAM, 256GB SSD (7RDCW) oder ähnlich). Dieser verbindet sich mit der Socket-Anwendung über einen WebSocket. Der lokale Rechner ist mit einem Beamer (Panasonic PT-VMZ60 oder ähnlich) über Kabel verbunden. Dieser gibt die Projektion der Beamer-Application aus. Für den Testaufbau wurde neben der visuellen Projektion ein 2.1 Soundsystem im Raum verwendet um parallel Audiofiles ausgeben zu können.
 
-Über die Beamer-Application können, neben Snapshots aus individuellen Spielverläufen einzelner Besucher*innen, visuelle Dokumente (etwa historische Fotografien) ausgespielt werden. Eine Soundausgabe ist ebenfalls vorgesehen. Die Ausgabe von Audio und visuellen Dokumenten (im Testaufbau "historische Artefakte") reagiert auf das Spielverhalten der Besucher*innen und wird in Form von "Triggerpics" bzw. "Triggersounds" nach einer Spielentscheidung einzelner Besucher*innen als Beamerprojektion bzw. über das separat installierte Soundsystem als Aduiofile ausgespielt.
+Über die Beamer-Application können neben Snapshots aus individuellen Spielverläufen einzelner Besucher*innen, visuelle Dokumente (etwa historische Fotografien) ausgespielt werden. Eine Soundausgabe ist ebenfalls vorgesehen. Die Ausgabe von Audio und visuellen Dokumenten (im Testaufbau "historische Artefakte") reagiert auf das Spielverhalten der Besucher*innen und wird in Form von "Triggerpics" bzw. "Triggersounds" nach einer Spielentscheidung einzelner Besucher*innen als Beamerprojektion bzw. über das separat installierte Soundsystem als Audiofile ausgespielt.
 
-Für Nutzung der Webanwendung im Ausstellungsraum wurden an mehreren Stellen QR-Codes angebracht. Durch scannen des QR-Codes können die Besucher*innen ihre Anwesenheit im Museum verifizieren und direkt auf die Web-URL zugreifen. Das scannen der QR-Codes funktioniert nur wenn die Anwendung auf einer "https"-URL läuft.
+Für Nutzung der Webanwendung im Ausstellungsraum wurden an mehreren Stellen QR-Codes angebracht. Durch Scannen des QR-Codes können die Besucher*innen ihre Anwesenheit im Museum verifizieren und direkt auf die Web-URL zugreifen. Das Scannen der QR-Codes funktioniert nur, wenn die Anwendung auf einer "https"-URL läuft.
 
-Für den Testaufbau der Anwendung wurde drei Fonts eingebettet, die jeweils Lizenzen unterliegen. Verwendet wurden die Fonts "Merriweather & Jost" unter Open Font License. Für die Verwendung von "Fonteys" war der Erwerb einer Lizenz erforderlich.
+Für den Testaufbau der Anwendung wurde drei Fonts eingebettet, die jeweils lizenzrechtlich geschützt sind. Verwendet wurden die Fonts "Merriweather" und "Jost" unter Open Font License. Für die Verwendung von "Fonteys" war der Erwerb einer Nutzungslizenz erforderlich.
 
 
 ### Benutzung ###
@@ -55,18 +55,19 @@ Bei der Nutzung eines der bereitgestellten Tablets starten die Besucher*innen da
 Bei der Nutzung des Smartphones müssen die Besucher*innen zum Spielstart wie folgt vorgehen:
 
 1. Verbindung zum WLAN herstellen
-2. Scan des QR-Codes, oder
+2. Scan des QR-Codes 
+oder
 3. Aufruf der URL und danach Scan des QR-Codes zur Verifizierung der Anwesenheit im Museum
 
-Schritt 1 entfällt, wenn der mobile Datenempfang stark genug ist. Von den Schritten 2 und 2 muss nur einer ausgeführt werden. Ziel ist, dass die Besucher*innen das Spiel starten und die Verifizierung ihrer Anwesenheit im Museum (“eingeloggen”). Von Personen, die eingeloggt ist, wird innerhalb des Spiels ausgelesen, welche historischen Artefakte angeschaut und welche Personen zum Spielen ausgewählt werden. Diese Informationen werden auf der kreisrunden Projektion in der Mitte der Installation ausgegeben.
+Schritt 1 entfällt, wenn der mobile Datenempfang stark genug ist. Von den Schritten 1 und 2 muss nur einer ausgeführt werden. Ziel ist, dass die Besucher*innen das Spiel starten und die Verifizierung ihrer Anwesenheit im Museum (“einloggen”). Von Personen, die eingeloggt ist, wird innerhalb des Spiels ausgelesen, welche historischen Artefakte angeschaut und welche Personen zum Spielen ausgewählt werden. Diese Informationen werden auf der kreisrunden Projektion in der Mitte der Installation ausgegeben.
 
-Nach dem Start des Spiels erfolgt die Personenauswahl. Aus insgesamt sieben Personen kann durch das Drehen eines Auswahlrades oder das Durchwischen (Swipen) von Personenporträts ein Charakter ausgewählt und bestätigt werden. Nach der Auswahl erhält man zunächst eine kurze Übersicht/Vorstellung der Person und des zu ihr gehörigen Objekts. Die Personauswahl kann durch einen Auswahl-Button bestätigt oder durch Rückkehr ins Menü eine andere Person gewählt werden.
+Nach dem Start des Spiels erfolgt die Personenauswahl. Aus insgesamt sieben Personen kann durch das Drehen eines Auswahlrades oder das Durchwischen (Swipen) von Personenporträts ein Charakter ausgewählt und bestätigt werden. Nach der Auswahl erhält man zunächst eine kurze Übersicht/Vorstellung der Person und des zu ihr gehörigen Objekts. Die Personenauswahl kann durch einen Auswahl-Button bestätigt oder durch die Rückkehr ins Menü eine andere Person gewählt werden.
 
 Nach einigen einleitenden Screens zur Geschichte und zum Spiel selbst beginnt das Spiel, eine interaktive Graphic Novel, durch die man sich hindurch tappen kann. Tap auf die rechte Hälfte des Bildschirms führt zum nächsten Textblock oder der nächsten Zeichnung, tap auf die linke Hälfte führt zurück. 
 
 Nach einer Story-Sequenz erreicht man die erste Entscheidung. Nach einer Entscheidung kann nicht mehr zurück navigiert werden. Auf mehreren Kärtchen, die links-rechts durch den Screen gewischt werden können, wird den Spieler*innen eine Frage gestellt und mehrere Entscheidungsmöglichkeiten angeboten. Über einen Button darunter wird die Entscheidung bestätigt.
 
-Es gibt zwei verschiedene Arten von Buttons: Der “Longpress” Button muss eine längere Zeit gedrückt werden, um die Auswahl zu bestätigen. Der “Timeout” Button leert sich optisch langsam und gibt vor, wieviel Zeit man hat, um antworten.
+Es gibt zwei verschiedene Arten von Buttons: Der “Longpress” Button muss eine längere Zeit gedrückt werden, um die Auswahl zu bestätigen. Der “Timeout” Button leert sich langsam und gibt vor, wieviel Zeit man hat, um antworten.
 
 Im Spiel selbst gibt es die Möglichkeit, ein Untermenü zu öffnen, wo der Ton ein- und ausgeschaltet, zwischen den Sprachen Deutsch und Englisch gewechselt und das Spiel abgebrochen werden kann. Außerdem gibt es drei weitere Buttons. Bei einem Tap auf die Uhr werden Informationen angezeigt, was zur gleichen Zeit andernorts in Leipzig passierte. Ein Tap auf die Karte gibt Aufschluss darüber, wo sich die ausgewählte Person gerade befindet. Ein Tap auf das Icon der Person zeigt die Übersichtsseite mit Informationen zur Person sowie zu ihrem Objekt an.
 
