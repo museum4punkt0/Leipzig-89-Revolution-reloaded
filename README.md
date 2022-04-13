@@ -40,7 +40,7 @@ In einer räumlichen Installation läuft die Beamer-Anwendung auf einem lokalen 
 
 Für Nutzung der Webanwendung im Ausstellungsraum wurden an mehreren Stellen QR-Codes angebracht. Durch scannen des QR-Codes können die Besucher*innen ihre Anwesenheit im Museum verifizieren und direkt auf die Web-URL zugreifen. Das scannen der QR-Codes funktioniert nur wenn die Anwendung auf einer "https"-URL läuft.
 
-Für den Testaufbau der Anwendung wurde drei Fonts eingebettet, die jeweils Lizenzen unterliegen. Verwendet wurden "Merriwether & Jost" und "..." mit einer Open Font License. Für die VErwendung von "Fonteys" war der Erwerb einer Lizenz erforderlich.
+Für den Testaufbau der Anwendung wurde drei Fonts eingebettet, die jeweils Lizenzen unterliegen. Verwendet wurden die Fonts "Merriweather & Jost" unter Open Font License. Für die Verwendung von "Fonteys" war der Erwerb einer Lizenz erforderlich.
 
 
 ### Benutzung ###
