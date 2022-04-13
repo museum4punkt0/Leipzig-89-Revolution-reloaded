@@ -36,7 +36,7 @@ Klonen Sie zuerst das Repository auf Ihr lokales System. Wechseln Sie in das Rep
 Technische Installation im Raum: 
 In einer räumlichen Installation läuft die Beamer-Anwendung auf einem lokalen Rechner (Dell OptiPlex 3080 MFF, Core i5-10500T, 8GB RAM, 256GB SSD (7RDCW) oder ähnlich). Dieser verbindet sich mit der Socket-Anwendung über einen WebSocket. Der lokale Rechner ist mit einem Beamer (Panasonic PT-VMZ60 oder ähnlich) über Kabel verbunden. Dieser gibt die Projektion der Beamer-Application aus.
 
-Für Nutzung der Webanwendung im Ausstellungsraum wurden an mehrern Stellen QR-Codes angebracht. Durch scannen des QR-Codes können die Besucher*innen ihre Anwesenheit im Museum verifizieren und direkt auf die Web-URL zugreifen. Das scannen der QR-Codes funktioniert nur wenn die Anwendung auf einer "https"-URL läuft.
+Für Nutzung der Webanwendung im Ausstellungsraum wurden an mehreren Stellen QR-Codes angebracht. Durch scannen des QR-Codes können die Besucher*innen ihre Anwesenheit im Museum verifizieren und direkt auf die Web-URL zugreifen. Das scannen der QR-Codes funktioniert nur wenn die Anwendung auf einer "https"-URL läuft.
 
 
 ### Benutzung ###
