@@ -85,6 +85,8 @@ Auftraggeber/Rechteinhaber: Stiftung Deutsches Historisches Museum (www.dhm.de)
 
 Urheber: Playing History UG (www.playinghistory.de)
 
+Code und Dokumentation in diesem Repositorium wurden begutachtet durch TICE Software UG (haftungsbeschränkt) (https://tice.software/de/)
+
 ### Lizenz ###
 Copyright © 2022, Stiftung Deutsches Historisches Museum 
 
